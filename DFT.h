@@ -17,7 +17,7 @@ namespace Hsinpa {
     public:
         DFT();
 
-        void Forward(float data[]);
+        void Forward(const float data[]);
 
     };
 } // Hsinpa

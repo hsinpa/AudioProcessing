@@ -10,5 +10,6 @@ add_library(AudioSignalProcessLib SHARED library.cpp
         FFT.cpp
         FFT.h)
 
+link_directories(${CMAKE_SOURCE_DIR}/library)
 add_executable(AudioSignalProcess main.cpp)
 target_link_libraries(AudioSignalProcess AudioSignalProcessLib)
